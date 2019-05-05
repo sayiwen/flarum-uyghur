@@ -1,0 +1,17 @@
+@import url('https://subat-work-images.oss-cn-beijing.aliyuncs.com/fonts/ukij-tuz-basma-bold/font.css');
+
+.TagLabel {
+  font-size: 85%;
+  font-weight: 600;
+}
+.TagLabel.colored .TagLabel-text {
+  font-family: 'UKIJ Tuz Basma', tahoma;
+  font-weight: 200;
+}
+.DiscussionHero .TagsLabel .TagLabel {
+  font-size: 14px;
+}
+.DiscussionHero .TagsLabel .TagLabel.colored .TagLabel-text {
+  font-family: 'UKIJ Tuz Basma', tahoma;
+  font-weight: 200;
+}
