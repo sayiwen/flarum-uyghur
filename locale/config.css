@@ -46,6 +46,7 @@
 		}
 		.PostMeta-permalink{
 			direction: ltr;
+			pointer-events: none;
 		}
 	}
 }
