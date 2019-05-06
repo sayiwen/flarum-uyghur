@@ -204,7 +204,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: يازما يوللاش
+      body_placeholder: مەزمۇن
       discard_confirmation: "مەزمۇننى يوللىمىدىڭىز ، بۇ مەزمۇندىن ۋاز كىچەمسىز"
       submit_button: يوللاش
       title: => core.ref.start_a_discussion
