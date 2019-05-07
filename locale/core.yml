@@ -221,7 +221,7 @@ core:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "سىزنىڭ ئىنكاسىڭىز يوللانمىدى ، ۋاز كېچەمسىز ؟"
       posted_message: ئىنكاس يوللاندى . 
-      submit_button: ئىنكاس يوللاش
+      submit_button: يوللاش
       view_button: كۆرۈش
 
     # These translations are used by the discussion control buttons.
@@ -246,7 +246,7 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: ئىشلەتكۈچىنى قوشغىتىش
+      activate_button: ئىشلەتكۈچىنى قوزغىتىش
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: گۇرۇپ
@@ -564,7 +564,7 @@ core:
     start_a_discussion: يازما يوللاش
     username: ئىسىم
     users: ئابۇنىتلار                                 # Referenced by flarum-statistics.yml
-    write_a_reply: ئىنكاس يېزىس
+    write_a_reply: ئىنكاس يېزىش
     you: سىز                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
@@ -573,11 +573,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: باشقۇرغۇچى
+    admins: باشقۇرغۇچىلار
+    guest: مىھمان
+    guests: مىھمانلار
+    member: ئەزا
+    members: ئەزالار
+    mod: باشلىق
+    mods: باشلىقلار
