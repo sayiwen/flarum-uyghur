@@ -47,7 +47,7 @@
         'دېكابىر'
     ];
 
-    var ar = moment.defineLocale('ar', {
+    var ug = moment.defineLocale('ar', {
         months : months,
         monthsShort : months,
         weekdays: 'يەكشەنبە_دۈشەنبە_سەيشەنبە_چارشەنبە_پەيشەنبە_جۈمە_شەنبە'.split('_'),
