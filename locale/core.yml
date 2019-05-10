@@ -541,7 +541,7 @@ core:
     delete_forever: مەڭگۈ ئۆچۈرۈش
     discussions: يازما                     # Referenced by flarum-statistics.yml
     edit: تەھرىرلەش
-    email: ئىلخىەت
+    email: ئىلخەت
     load_more: تېخىمۇ كۆپ
     log_in: كىرىش
     log_out: چىكىنىش
