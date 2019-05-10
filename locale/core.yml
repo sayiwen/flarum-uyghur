@@ -9,58 +9,58 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      title: Add Extension
+      developer_text: " ئەگەر سىز پىروگىراممىر بولسىڭىز <a>چۈشەندۈرۈشنى ئوقۇپ</a> ئۆزىڭىزنىڭ قىستۇرما ئەپنى ياسىسىڭىز بۇلىدۇ."
+      install_text: "شۇنداقلا سىز ئورگان بىكەتتىن قستۇرما ئۇچۇرىنى كۆرگەندىن كىيىن composer بىلەن قاچىلىسىڭىز بۇلىدۇ . "
+      temporary_text: "كىيىنچە بىز قىستۇرمىنى ئاسانلار قاچىلايدىغان قىلىمز . "
+      title: قىستۇرما قېتىش
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_footer_heading: Custom Footer
+      colored_header_label: رەڭلىك بەت بېشى
+      colors_heading: رەڭلەر
+      colors_text: "ئىككى خىل رەڭ تاللاڭ ، بىرسى يورۇق كۆرسىتىشكە ، يەنە بىرسى تەگەلىك قىلىشقا ئىشلىتىلدۇ ."
+      custom_footer_heading: خاس بەت ئاستى
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Custom Header
+      custom_header_heading: خاس بەت بېشى
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      edit_css_button: Edit Custom CSS
+      custom_styles_heading: خاس پاسون
+      custom_styles_text: css/less قېتىش ئارقىلىق تور بىكىتىڭىزنى خاسلاشتۇرسىڭىز بۇلىدۇ.
+      dark_mode_label: قاراڭغۇ ھالەت
+      edit_css_button: پاسۇننى تەڭشەش
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
-      enter_hex_message: Please enter a hexadecimal color code.
-      favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      enter_hex_message: 16لىك سىستىمىدىكى رەڭنى يېزىڭ
+      favicon_heading: ئايكون
+      favicon_text: توربىەتنىڭ بېشىدا كۆرىنىدىغان كىچىك رەسىمنى يۈكلەڭ
+      logo_heading: لوگو
+      logo_text: توربەتنىڭ لوگوسىنى يۈكلەڭ
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: Choose the page which users will first see when they visit your forum.
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      default_language_heading: سۈكۈتتىكى تىل
+      forum_description_heading: مۇنبەر تونۇشتۇرلىشى
+      forum_description_text: مۇنبەرنى بىر-ئىككى جۈمىلە بىلەن چۈشەندۈرۈڭ . ئىزدەش ماتورى مۇشۇ ئارقىلىق توربەتنى خاتىرلەيدۇ
+      forum_title_heading: مۇنبەر تېمىسى
+      home_page_heading: باشبەت
+      home_page_text: ئابۇنىت ئاچقاندا ئېچىلىدىغان بەتنى تاللاڭ
+      saved_message: ئۆزگەرتىشلەر ساقلاندى
+      show_language_selector_label: تىل تاللاش سىتونىنى كۆرسىتىش
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_heading: قارىشى ئېلىش لوزۇنكىسى
+      welcome_banner_text: مۇنبەر ئېچىلغاندا 
 
     # These translations are used in the Dashboard page.
     dashboard:
-      clear_cache_button: Clear Cache
-      tools_button: Tools
+      clear_cache_button: غەملەك تازلاش
+      tools_button: قۇرال
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "css/less يېزىپ مۇنبەرنىڭ پاسۇنىنى ئۆزگەرتسىڭىز بۇلىدۇ . "
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: پاسۇننى ئۆزگەرتىش
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -71,15 +71,15 @@ core:
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: => core.ref.color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
+      delete_button: گۇرۇپنى ئۆچۈرۈش
+      delete_confirmation: "بۇ گۇرۇپنى راستىنلا ئۆچۈرەمسىز ؟ ئەزالار ئۆچمەيدۇ ."
+      icon_label: ئايكون
+      icon_text: "FontAwesome نىڭ كودىنى كىرگۈزۈڭ"
+      name_label: ئىسىم
+      plural_placeholder: گۇرۇپ ئاتىلىشى
+      singular_placeholder: گۇرۇپ ئاتىلىشى
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: گۇرۇپ قۇرۇش
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -89,25 +89,25 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
-      addresses_heading: Addresses
-      driver_label: Driver
-      encryption_label: Encryption
-      from_label: Sender
+      account_heading: SMTP ئاكونتى
+      addresses_heading: ئادرىس
+      driver_label: قوزغاتقۇچ
+      encryption_label: شىفىرلىنىشى
+      from_label: يوللىغۇچى
       heading: => core.ref.email
-      host_label: Host
+      host_label: مۇلازىمتىر
       password_label: => core.ref.password
-      port_label: Port
-      server_heading: SMTP Server
+      port_label: ئئېغىز
+      server_heading: SMTP مۇلازىمتىر
       submit_button: => core.ref.save_changes
-      text: Configure the SMTP settings and addresses your forum will use to send email.
+      text: SMTP تەڭشىكىنى بىكىتىڭ ، ئاندىن سىستمىنىڭ ئىلخىت سىستىمىسى نۇرمال ئىشلەيدۇ.
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: قىستۇرما قېتىش
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: تاقاش
 
     # These translations are used in the session dropdown menu.
     header:
@@ -115,57 +115,57 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: سەل ساقلاڭ
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
-      appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
-      basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
+      appearance_button: كۆرۈنىشى
+      appearance_text: "رەڭ ، لوگولارنى خاسلاشتۇرۇڭ"
+      basics_button: ئاساسلىق
+      basics_text: "مۇنبەرنىڭ تېمىسىنى ، تىلىنى شۇنداقلا چۈشەندۈرلىشىنى بىكىتىڭ"
+      dashboard_button: مەيدان
+      dashboard_text: مۇنبەرنىڭ ھازىرقى ئەھۋالى
       email_button: => core.ref.email
-      email_text: "Configure your forum's email settings."
-      extensions_button: Extensions
-      extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
-      permissions_text: Configure who can see and do what.
+      email_text: "ئىلخەت تەڭشىكىنى بىكىتىش"
+      extensions_button: قىستۇرمىلار
+      extensions_text: مۇنبەرگە باشقىلا ئىقتىدارلانى قېتىش
+      permissions_button: ھۇقۇق
+      permissions_text: كىمنىڭ نېمە ئىش قىلالايدىغانلىقىنى بىكىتىڭ
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Allow post editing
-      allow_renaming_label: Allow renaming
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      delete_posts_label: Delete posts
-      edit_posts_label: Edit posts
-      global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
-      view_last_seen_at_label: View user last seen time
-      view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      allow_post_editing_label: يازما تەھرىرلىسە بۇلىدۇ
+      allow_renaming_label: تېما ئۆزگەرتسە بۇلىدۇ
+      create_heading: قۇرۇش
+      delete_discussions_forever_label: يازمىنى مەڭگۈ ئۆچۈرۈش
+      delete_discussions_label: يازما ئ‍ۆچۈرۈش
+      delete_posts_forever_label: ئىنكاسنى مەڭگۈ ئۆچۈرۈش
+      delete_posts_label: ئىنكاسنى ئۆچۈرۈش
+      edit_posts_label: ئىنكاس تەھرىرلەش
+      global_heading: ھەممە
+      moderate_heading: ئوتتۇرا دەرىجىلىەك
+      new_group_button: يېڭى گۇرۇپ
+      participate_heading: مەزمۇنغا دائىر
+      read_heading: كۆرۈشكە دائىر
+      rename_discussions_label: تېما ئۆزگەرتىش
+      reply_to_discussions_label: ئىنكاس يوللاش
+      sign_up_label: تىزىملىتىش
+      start_discussions_label: ياما يوللاش
+      view_discussions_label: يازما كۆرۈش
+      view_last_seen_at_label: ئابۇنىتنىڭ ئاخىرقى تورغا چىققان ۋاقتىنى كۆرۈش
+      view_post_ips_label: يازما يوللانغا IP ئادىرىسىنى كۆرۈش
+      view_user_list_label: ئابۇنىت تىزىملىكىنى كۆرۈش
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: چەكسىز
+      allow_some_minutes_button: "{count} مىنۇتقىچە|{count} مىنۇتقىچە"
+      allow_ten_minutes_button: ئون مىنۇتقىچە
+      allow_until_reply_button: كىيىنكى ئىنكاسقىچە
+      everyone_button: ھەممە ئادەم
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: تاقالغان
+      signup_open_button: ئوچۇق
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -426,22 +426,22 @@ core:
 
     # These translations are used to punctuate a series of items.
     series:
-      glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      glue_text: "، "
+      three_text: "{first}, {second}, ۋە {third}"
+      two_text: "{first} ۋە {second}"
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[ئۆچۈرۈلدى]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
-      loading_text: Loading...
+      javascript_disabled_message: بۇ توربەت ھازىرقى زامان تور كۆرگۈچلىرىدە نۇرمال ئىشلەيدۇ.
+      load_error_message: سىستىما توغرا قاچىلانمىدىمۇ قانداق، ئەگەر بۇ ئەسكەرتىش چىقسا سىستمىنى قايتا قاچىلاڭ
+      loading_text: سەل ساقلاڭ ... 
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -450,11 +450,11 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      403_message: You do not have permission to access this page.
-      404_message: The page you requested could not be found.
-      404_return_link: "Return to {forum}"
-      500_message: An error occurred while trying to load this page.
-      503_message: "{forum} is undergoing maintenance. Thanks for your patience!"
+      403_message: سىزنىڭ بۇ بەتنى ئېچىش ھۇقۇقىڭىز يوق
+      404_message: سىز ئاچقان بەت يوقكەن
+      404_return_link: "{forum} غا قايتىش"
+      500_message: ئازراق خاتالىق چىقىپ قالدى 
+      503_message: "{forum} ياسىلىۋاتىدۇ . "
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -465,61 +465,61 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Are you sure you want to log out of {forum}?"
+      log_out_confirmation: "سىز {forum} دىن راستىنلا چىكىنەمسىز ؟"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: پارولنى بىكىتىش
+      new_password_label: پارول
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "ئابۇنىت ئىسمى خاتا بۇلۇپ قالدى . ئۇيغۇرچە يازسىڭىزمۇ بۇلىدۇ جۇمۇ !"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: ئاكونتىڭىزنى قوزغىتىڭ
       body: |
-        Hey {username}!
+        ھەي {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        بىرسى مۇشۇ ئىلخەت ئارقىلىق {forum} غا تىزىملاتتى
 
-        If this was you, simply click the following link and your account will be activated:
+        ئەگەر بۇ سىز بولسىڭىز ئاستىدىكى ئىلخىەتنى بېسىپ ئاكونتىڭىزنى قوزغىتىڭ
         {url}
 
-        If you did not sign up, please ignore this email.
+        ئەگەر سىز بولمىسىڭىز كارىڭىز بولمىسۇن.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: يېڭى ئىلخىتنى بىكىتىش
       body: |
-        Hey {username}!
+        ھەي {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        بىرسى {email} دىكى ئىلخىەتنى ئۆزگەرتىش ئىلتامىسى سۇندى
 
-        If this was you, simply click the following link and your email will be confirmed:
+        ئەگەر بۇ سىز بولسىڭىز ئاستىدىكى ئۇلانمىنى بېسىپ ئۆزگەرتسىڭىز بۇلىدۇ . 
         {url}
 
-        If this was not you, please ignore this email.
+        سىز بولمىسىڭىز كارىڭىز بولمىسۇن . 
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        ھەي {username} !
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        بىرسى {forum} دا پارولنى ئۇنتىغانلىق توغىرىسىدا ئىلتىماس سۇندى . 
 
-        If this was you, click the following link to reset your password:
+        ئەگەر بۇ ئادەم سىز بولسىڭىز ئاستىدىكى ئادىرىسىنى بېسىپ پارولنى ئۆزگەرتىڭ
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        ئەگەر بۇ سىز بولمىسىڭىز ياكى پارولنى ئۆزگەرتمىسىڭز بۇ ئىلخىەت بىلەن كارىڭىز بولمىسىمۇ بۇلىدۇ.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -532,11 +532,11 @@ core:
     change_password: پارول ئۆزگەرتىش
     color: رەڭ                                 # Referenced by flarum-tags.yml
     confirm_password: پارول مۇقۇملاش
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    custom_footer_text: Add HTML to be displayed at the very bottom of the page.
-    custom_footer_title: Edit Custom Footer
-    custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-    custom_header_title: Edit Custom Header
+    confirmation_email_sent: "بىز {email} غا بىر پارچە ئىلخىت ئەۋەتتۇق . ئەگەر تاپشۇرۇپ ئالمىغان بولسىڭىز ئەخلەت ساندۇقىغا قاراپ بېقىڭ"
+    custom_footer_text: ھەربىر بەتنىڭ ئاستىدا كۆرىنىدىغان مەزمۇن
+    custom_footer_title: بەت ئاستىنى تەھرىرلەش
+    custom_header_text: "ھەربىر بەتنىڭ ئۈستىدە كۆرىنىدىغان مەزمۇن"
+    custom_header_title: بەت بېشىنى تەھرىرلەش
     delete: ئۆچۈرۈش
     delete_forever: مەڭگۈ ئۆچۈرۈش
     discussions: يازما                     # Referenced by flarum-statistics.yml
@@ -579,5 +579,5 @@ core:
     guests: مىھمانلار
     member: ئەزا
     members: ئەزالار
-    mod: باشلىق
-    mods: باشلىقلار
+    mod: يۈرگۈزگۈچى
+    mods: يۈرگۈزگىچىلەر
