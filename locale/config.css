@@ -126,6 +126,11 @@
 	    .App-content > & {
 	      padding: 0;
 	    }
+			.EditCustomCssModal textarea, .EditCustomHeaderModal textarea{
+				direction: ltr;
+			}
 	  }
 	}
 }
+
+
