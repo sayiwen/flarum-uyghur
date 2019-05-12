@@ -3,39 +3,39 @@ flagrow-upload:
     buttons:
       attach: ھۆججەت قېتىش
     states:
-      loading: 加载中
-      success: 成功
-      error: 错误
+      loading: قاچىلىنىۋاتىدۇ
+      success: تامام
+      error: خاتالىق
   admin:
     permissions:
-      upload_label: 文件上传设定
-      download_label: 下载文件
+      upload_label: ھۆججەت يوللاش تەڭشىكى
+      download_label: چۆججەت چۈشۈرۈش
     upload_methods:
-      local: 本地
-      aws-s3: 亚马逊 S3
+      local: يەرلىك
+      aws-s3: ئامازون
       imgur: Imgur
       ovh-svfs: OVH SVFS
     labels:
       preferences:
-        title: 偏好设定
-        max_file_size: 最大文件大小 (单位为 KB)
-        mime_types: 设置MIME类型对应的上传方式
+        title: تەڭشەك
+        max_file_size: "يۈكىلىگىلى بۇلىدىغان ھۆججەت ئەڭ چوڭ بولغاندا قانچە ؟ بىرلىكى : KB"
+        mime_types: ھۆججەتنىڭ شەكلىگە ئاساسەن يۈكلەش قېلىپىنى تاللاڭ
       resize:
-        title: 调整图片大小
-        toggle: 切换图片调整
-        max_width: 最大图片宽度
-        max_height: 最大图片高度
+        title: رەسىم چوڭ كىچىكلىكىنى تەڭشەش
+        toggle: رەسىم چوڭ كىچىكلىكى
+        max_width: رەسىم كەڭلىكى ئەڭ چوڭ بولغاندا
+        max_height: رەسىم ئىگىزلىكى ئەڭ چوڭ بولغاندا
       watermark:
-        title: 水印图片
-        toggle: 水印图片
-        position: 水印位置
-        file: 上传水印图片
+        title: رەسىم ماركىسى
+        toggle: رەسىم ماركىسى
+        position: ماركا ئورنى
+        file: ماركا رەسىمنى تاللاڭ
       local:
-        title: 本地存储设定
-        cdn_url: CDN 网址 (附加在文件前面)
+        title: يەرلىك تەڭشىكى
+        cdn_url: CDN
       imgur:
-        title: Imgur 图片存储设定
-        client_id: Imgur 客户ID
+        title: Imgur رەسىم تەڭشىكى
+        client_id: Imgur ID
       aws-s3:
         title: AWS S3 存储设定
         key: Key

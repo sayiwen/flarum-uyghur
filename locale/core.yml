@@ -333,7 +333,7 @@ core:
       now_link: ھازىر
       original_post_link: ئەسلى يازما
       unread_text: "{count} سى ئوقۇلمىغان"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      viewing_text: "{index}-قەۋەت / جەمىي {count} قەۋەت|{index}-قەۋەت / جەمىي {count} قەۋەت "
 
     # These translations are displayed between posts in the post stream.
     post_stream:
