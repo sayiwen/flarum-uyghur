@@ -555,7 +555,7 @@ core:
     posts: يازما                                 # Referenced by flarum-statistics.yml
     previous_page: ئالدىنقى بەت
     remove: چىقرىۋېتىش
-    rename: ئىسىم ئۆزگەرتىش
+    rename: تېما ئۆزگەرتىش
     reply: قايتۇرۇش                                 # Referenced by flarum-mentions.yml
     reset_your_password: پارولنى ئۆزگەرتىش
     restore: ئەسلىگە قايتۇرۇش
