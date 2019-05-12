@@ -35,13 +35,13 @@ flarum-subscriptions:
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: ئىنكاس يازغاندا ئۇچۇر كەلسۇن . 
+      following_text: باشقىلار ئىنكاس يازغاندىمۇ ئۇچۇر كىلىدۇ
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: ئۇچۇر كەممىسۇن ھەمدە تىزىملىكتىمۇ كۆرۈنمىسۇن
+      ignoring_text: ئۇچۇر كەممەيدۇ ھەمدە تىزىملىكتىمۇ كۆرۈنمەيدۇ
       not_following_button: ئەگەشمەگلىك
-      not_following_text: "تىلغا ئالغاندىلا ئۇچۇر كەلسۇن"
-      notify_alert_tooltip: يېڭى يازما يوللانغاندا ئۇچۇر كەلسۇن
-      notify_email_tooltip: يېڭى يازما يوللانغادا ئىلخىت ئەۋەتسۇن
+      not_following_text: "باشقىلار تىلغا ئالغاندىلا ئۇچۇر كىلىدۇ"
+      notify_alert_tooltip: يېڭى يازما يوللانغاندا ئۇچۇر كىلىدۇ
+      notify_email_tooltip: يېڭى يازما يوللانغادا ئىلخىت كىلىدۇ
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
