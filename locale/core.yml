@@ -231,7 +231,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "بۇ يازمىنى راستىنلا ئۆچۈرەمسىز؟"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: تىزىملىتىپ كىرىپ ئاندىن ئىنكاس يوللاڭ
+      log_in_to_reply_button: كىرسىڭىز يوللىيالايسىز
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
