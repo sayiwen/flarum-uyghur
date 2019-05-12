@@ -375,7 +375,7 @@ core:
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
-      username_placeholder: => core.ref.username
+      username_placeholder: => "ئىسىم ( ئۇيغۇرچە قوللايدۇ )"
       welcome_text: "{username} خوش كەلدىڭىز !"
 
     # These translations are used in the user profile page and profile popup.
