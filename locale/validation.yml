@@ -1,6 +1,6 @@
 validation:
-  accepted: "The :attribute must be accepted."
-  active_url: "The :attribute is not a valid URL."
+  accepted: ":attribute ماس كەلمىدى."
+  active_url: ":attribute توغرا بولغان URL ئەمەس"
   after: "The :attribute must be a date after :date."
   after_or_equal: "The :attribute must be a date after or equal to :date."
   alpha: "The :attribute may only contain letters."
@@ -93,12 +93,12 @@ validation:
   uuid: "The :attribute must be a valid UUID."
 
   attributes:
-    username: username
-    password: password
-    email: email
-    title: title
-    content: content
-    name_singular: singular name
-    name_plural: plural name
-    tag_count_primary: number of primary tags
-    tag_count_secondary: number of secondary tags
+    username: ئەزا نامى
+    password: پارول
+    email: ئىلخىت
+    title: تېما
+    content: مەزمۇن
+    name_singular: ئىسىم
+    name_plural: كۆپلۈك ئىسىم
+    tag_count_primary: سەھىپىنىڭ سانى
+    tag_count_secondary: خەتكۈچنى سانى

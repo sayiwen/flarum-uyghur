@@ -45,11 +45,11 @@ flarum-flags:
     post:
       dismiss_flag_button: تاقاش
       flagged_by_text: "{username} تەرىپىدىن پاش قىلىندى"
-      flagged_by_with_reason_text: "Flagged by {username} as {reason}"
+      flagged_by_with_reason_text: "{username} پاش قىلدى . سەۋەبى: {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
-      flag_button: Flag
+      flag_button: پاش قىلىش
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -57,5 +57,5 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: Flag Post
-    flagged_posts: Flagged Posts
+    flag_post: پاش قىلىش
+    flagged_posts: پاش قىلىنغان مەزمۇنلار

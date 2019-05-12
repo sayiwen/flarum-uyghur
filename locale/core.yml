@@ -290,11 +290,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: يېقىنقى
+      latest_button: يېڭىلانغان
       newest_button: يېڭى
       oldest_button: كونا
       relevance_button: مۇناسىۋەتلىك
-      top_button: ئالدىنقى
+      top_button: ئاۋات
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -302,7 +302,7 @@ core:
       invalid_login_message: كىرگۈزگەن ئۇچۇرىڭىز خاتا بۇلۇپ قالدى
       password_placeholder: => core.ref.password
       remember_me_label: كىيىن پارولسىز كىرسۇن
-      sign_up_text: "ئاكونتىڭىز يوق بولسا ئاۋال تىزىملىتىڭ"
+      sign_up_text: "ئاكونتىڭىز يوق بولسا ئاۋال <a>تىزىملىتىڭ</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: ئىسىم ياكى ئىلخەت
