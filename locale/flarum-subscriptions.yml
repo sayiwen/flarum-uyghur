@@ -35,10 +35,10 @@ flarum-subscriptions:
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: ئىنكاس يازغاندا ئۇچۇر كىلىدۇ . 
+      following_text: ئىنكاس يازغاندا ئۇچۇر كەلسۇن . 
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: ئۇچۇر كەممىسۇن ھەمدە تىزىملىكتىمۇ كۆرۈنمىسۇن
-      not_following_button: ئەگەشمىگەن
+      not_following_button: ئەگەشمەگلىك
       not_following_text: "تىلغا ئالغاندىلا ئۇچۇر كەلسۇن"
       notify_alert_tooltip: يېڭى يازما يوللانغاندا ئۇچۇر كەلسۇن
       notify_email_tooltip: يېڭى يازما يوللانغادا ئىلخىت ئەۋەتسۇن
@@ -50,5 +50,5 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: ئەگىشىش
-    following: ئەگەشتىڭىز
+    following: ئەگىشىگلىك
     ignoring: ئىتىبارسىز
