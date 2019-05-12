@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: ئەگىشىش
+    follow: ئەگەشمەگلىك
     following: ئەگىشىگلىك
-    ignoring: ئىتىبارسىز
+    ignoring: كارىم يوق
