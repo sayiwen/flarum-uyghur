@@ -552,7 +552,7 @@ core:
     notifications: ئۇچۇرلاش
     okay: ھەئە                                  # Referenced by flarum-tags.yml
     password: پارول
-    posts: يازما                                 # Referenced by flarum-statistics.yml
+    posts: ئىنكاس                                 # Referenced by flarum-statistics.yml
     previous_page: ئالدىنقى بەت
     remove: چىقرىۋېتىش
     rename: تېما ئۆزگەرتىش
