@@ -9,7 +9,7 @@ flagrow-upload:
   admin:
     permissions:
       upload_label: ھۆججەت يوللاش تەڭشىكى
-      download_label: چۆججەت چۈشۈرۈش
+      download_label: ھۆججەت چۈشۈرۈش
     upload_methods:
       local: يەرلىك
       aws-s3: ئامازون
