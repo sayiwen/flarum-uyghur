@@ -16,5 +16,5 @@ flarum-statistics:
       last_7_days_label: ئالدىنقى بىر ھەپتە
       posts_heading: => core.ref.posts
       today_label: بۈگۈن
-      total_label: جەمىي
+      total_label: جەمئىي
       users_heading: => core.ref.users
