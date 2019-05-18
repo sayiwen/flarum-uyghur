@@ -317,8 +317,8 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: تەھرىرلەندى
-      edited_tooltip: "{username} {ago} يوللىغان"
+      edited_text: قايتا تەھرىرلەنگەن
+      edited_tooltip: "{username} {ago} تەھرىرلىگەن"
       number_tooltip: "ئىنكاس #{number}"
 
     # These translations are used by the post control buttons.
