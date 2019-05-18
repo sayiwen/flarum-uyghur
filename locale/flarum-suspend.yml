@@ -9,28 +9,28 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: چىكۈندۈرۈلگەن ئابۇنىتلار
+      suspend_users_label: چېكىندۈرۈلگەن ئابۇنىتلار
 
   # Translations in this namespace are used by the forum user interface.
   forum:
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} {timeReadable} دا مۇنبەردىن چىكۈندۈردى."
+      user_suspended_text: "{username} {timeReadable} دا مۇنبەردىن چېكىندۈردى."
       user_unsuspended_text: "{username} سىزنى قايتا مۇنبەرگە قوشتى"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: مەڭگۈ چىكىۈندۈرۈش
       limited_time_days_text: " كۈن"
-      limited_time_label: بىر مەزگىل چىكۈندۈرۈش
-      not_suspended_label: چىكۈندۈرۈلگەنلەر يوق
-      status_heading: چىكۈندۈرۈش ھالىتى
+      limited_time_label: بىر مەزگىل چېكىندۈرۈش
+      not_suspended_label: چېكىندۈرۈلگەنلەر يوق
+      status_heading: چېكىندۈرۈش ھالىتى
       submit_button: => core.ref.save_changes
-      title: "{username} نى چىكۈندۈرۈش"
+      title: "{username} نى چېكىندۈرۈش"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: چىكۈندۈرۈلدى
+      suspended_tooltip: چېكىندۈرۈلدى
 
     # These translations are found on the user profile page (admin function).
     user_controls:

@@ -10,7 +10,7 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       approve_posts_label: يازما تەستىقلاش
-      reply_without_approval_label: يازمىغا يازغان ئىنكاس تەستىقلامىسىمۇ بۇلىدۇ . 
+      reply_without_approval_label: يازمىغا يازغان ئىنكاس تەستىقلانمىسىمۇ بولىدۇ . 
       start_discussions_without_approval_label: يوللىغان يازما تەستىقلانمىسىمۇ بۇلىدۇ.
 
   # Translations in this namespace are used by the forum user interface.
