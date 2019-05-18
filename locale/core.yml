@@ -549,7 +549,7 @@ core:
     log_out: چىكىنىش
     mark_all_as_read: ھەممىگە ئۇقۇدۇم دەپ بەلگە قويۇش
     next_page: كىيىنكى بەت
-    notifications: ئۇچۇرلاش
+    notifications: ئۇچۇرلار
     okay: ھەئە                                  # Referenced by flarum-tags.yml
     password: پارول
     posts: ئىنكاس                                 # Referenced by flarum-statistics.yml
