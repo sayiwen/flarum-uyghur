@@ -413,11 +413,11 @@ core:
       hidden_tooltip: يۇشۇرۇش
 
     # These translations are displayed as error messages.
-    error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+    error:   
+      generic_message: "ئاپلا! خاتالىق كۆرۈلدى، بىر ئازدىن كېيىن بەتنى يېڭىلاپ قايتا سىناڭ."
+      not_found_message: سىز ئىزدىگەن مەزمۇن تېپىلمىدى.
+      permission_denied_message: سىزنىڭ ھوقوقىڭىز بۇنداق قىلىشقا يەتمەيدىكەن.
+      rate_limit_exceeded_message: سەل تېز بولۇپ كەتتى، بىر ئاز ساقلاپ ئاندىن قايتا مەشغۇلات قىلىڭ.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
