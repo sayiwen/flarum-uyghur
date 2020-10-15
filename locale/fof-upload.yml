@@ -1,7 +1,7 @@
 fof-upload:
   admin:
     buttons:
-      save: Save settings
+      save: ساقلاش
     help_texts:
       description: |
         Set up uploading services and preferences.
@@ -93,4 +93,3 @@ fof-upload:
     upload_errors:
       forbidden_type: Uploading files of this type is not allowed.
       unsupported_type: 'Upload adapter does not support the provided mime type: {mime}.'
-      could_not_detect_mime: Could not detect the MIME type of this file, please try again.
