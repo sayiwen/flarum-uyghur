@@ -135,4 +135,6 @@
 	}
 }
 
-
+li > .LinksButton:hover, .LinksButton.SplitDropdown-button:hover {
+  text-decoration: none;
+}
