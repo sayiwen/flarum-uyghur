@@ -9,8 +9,8 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: " ئەگەر سىز پىروگىراممىر بولسىڭىز <a>چۈشەندۈرۈشنى ئوقۇپ</a> ئۆزىڭىزنىڭ قىستۇرما ئەپنى ياسىسىڭىز بۇلىدۇ."
-      install_text: "شۇنداقلا سىز ئورگان بىكەتتىن قستۇرما ئۇچۇرىنى كۆرگەندىن كىيىن composer بىلەن قاچىلىسىڭىز بۇلىدۇ . "
+      developer_text: " ئەگەر سىز پىروگىراممىر بولسىڭىز <a>چۈشەندۈرۈشنى ئوقۇپ</a> ئۆزىڭىزنىڭ قىستۇرما ئەپنى ياسىسىڭىز بولىدۇ."
+      install_text: "شۇنداقلا سىز ئورگان بىكەتتىن قستۇرما ئۇچۇرىنى كۆرگەندىن كىيىن composer بىلەن قاچىلىسىڭىز بولىدۇ . "
       temporary_text: "كىيىنچە بىز قىستۇرمىنى ئاسانلار قاچىلايدىغان قىلىمز . "
       title: قىستۇرما قېتىش
 
@@ -18,13 +18,13 @@ core:
     appearance:
       colored_header_label: رەڭلىك بەت بېشى
       colors_heading: رەڭلەر
-      colors_text: "ئىككى خىل رەڭ تاللاڭ ، بىرسى يورۇق كۆرسىتىشكە ، يەنە بىرسى تەگەلىك قىلىشقا ئىشلىتىلدۇ ."
+      colors_text: "ئىككى خىل رەڭ تاللاڭ ، بىرسى يورۇق كۆرسىتىشكە ، يەنە بىرسى تەگلىك قىلىشقا ئىشلىتىلدۇ ."
       custom_footer_heading: خاس بەت ئاستى
       custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: خاس بەت بېشى
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: خاس پاسون
-      custom_styles_text: css/less قېتىش ئارقىلىق تور بىكىتىڭىزنى خاسلاشتۇرسىڭىز بۇلىدۇ.
+      custom_styles_text: css/less قېتىش ئارقىلىق تور بېكىتىڭىزنى خاسلاشتۇرسىڭىز بولىدۇ.
       dark_mode_label: قاراڭغۇ ھالەت
       edit_css_button: پاسۇننى تەڭشەش
       edit_footer_button: => core.ref.custom_footer_title
@@ -46,10 +46,10 @@ core:
       home_page_heading: باشبەت
       home_page_text: ئابۇنىت ئاچقاندا ئېچىلىدىغان بەتنى تاللاڭ
       saved_message: ئۆزگەرتىشلەر ساقلاندى
-      show_language_selector_label: تىل تاللاش سىتونىنى كۆرسىتىش
+      show_language_selector_label: تىل تاللاش ئىستونىنى كۆرسىتىش
       submit_button: => core.ref.save_changes
       welcome_banner_heading: قارىشى ئېلىش لوزۇنكىسى
-      welcome_banner_text: مۇنبەر ئېچىلغاندا 
+      welcome_banner_text: مۇنبەر ئېچىلغاندا
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -58,7 +58,7 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "css/less يېزىپ مۇنبەرنىڭ پاسۇنىنى ئۆزگەرتسىڭىز بۇلىدۇ . "
+      customize_text: "css/less يېزىپ مۇنبەرنىڭ پاسۇنىنى ئۆزگەرتسىڭىز بولىدۇ . "
       submit_button: => core.ref.save_changes
       title: پاسۇننى ئۆزگەرتىش
 
@@ -90,17 +90,17 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       account_heading: SMTP ئاكونتى
-      addresses_heading: ئادرىس
+      addresses_heading: ئادرېس
       driver_label: قوزغاتقۇچ
       encryption_label: شىفىرلىنىشى
       from_label: يوللىغۇچى
       heading: => core.ref.email
       host_label: مۇلازىمتىر
       password_label: => core.ref.password
-      port_label: ئئېغىز
+      port_label: ئېغىر
       server_heading: SMTP مۇلازىمتىر
       submit_button: => core.ref.save_changes
-      text: SMTP تەڭشىكىنى بىكىتىڭ ، ئاندىن سىستمىنىڭ ئىلخىت سىستىمىسى نۇرمال ئىشلەيدۇ.
+      text: SMTP تەڭشىكىنى بېكىتىڭ ، ئاندىن سىستمىنىڭ ئىلخىت سىستىمىسى نۇرمال ئىشلەيدۇ.
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
@@ -122,20 +122,20 @@ core:
       appearance_button: كۆرۈنىشى
       appearance_text: "رەڭ ، لوگولارنى خاسلاشتۇرۇڭ"
       basics_button: ئاساسلىق
-      basics_text: "مۇنبەرنىڭ تېمىسىنى ، تىلىنى شۇنداقلا چۈشەندۈرلىشىنى بىكىتىڭ"
+      basics_text: "مۇنبەرنىڭ تېمىسىنى ، تىلىنى شۇنداقلا چۈشەندۈرلىشىنى بېكىتىڭ"
       dashboard_button: مەيدان
       dashboard_text: مۇنبەرنىڭ ھازىرقى ئەھۋالى
       email_button: => core.ref.email
-      email_text: "ئىلخەت تەڭشىكىنى بىكىتىش"
+      email_text: "ئىلخەت تەڭشىكىنى بېكىتىش"
       extensions_button: قىستۇرمىلار
       extensions_text: مۇنبەرگە باشقىلا ئىقتىدارلانى قېتىش
       permissions_button: ھۇقۇق
-      permissions_text: كىمنىڭ نېمە ئىش قىلالايدىغانلىقىنى بىكىتىڭ
+      permissions_text: كىمنىڭ نېمە ئىش قىلالايدىغانلىقىنى بېكىتىڭ
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: يازما تەھرىرلىسە بۇلىدۇ
-      allow_renaming_label: تېما ئۆزگەرتسە بۇلىدۇ
+      allow_post_editing_label: يازما تەھرىرلىسە بولىدۇ
+      allow_renaming_label: تېما ئۆزگەرتسە بولىدۇ
       create_heading: قۇرۇش
       delete_discussions_forever_label: يازمىنى مەڭگۈ ئۆچۈرۈش
       delete_discussions_label: يازما ئ‍ۆچۈرۈش
@@ -190,7 +190,7 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: پارول ئۆزگەرتىش ئىلخەتنى يوللاش
+      send_button: پارول ئۆزگەرتىش ئۇچۇرىنى يوللاش
       text: ئاستىدىكى كۇنۇپكىنى بېسىڭ ھەمدە ئىلخەتتىكى ئۇلىنىشنى چىكىڭ
       title: => core.ref.change_password
 
@@ -220,14 +220,14 @@ core:
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "سىزنىڭ ئىنكاسىڭىز يوللانمىدى ، ۋاز كېچەمسىز ؟"
-      posted_message: ئىنكاس يوللاندى . 
+      posted_message: ئىنكاس يوللاندى .
       submit_button: يوللاش
       view_button: كۆرۈش
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: ئىنكاس يوللىيالمايسىز
-      cannot_reply_text: سىزنىڭ بۇ تېمىغا ئىنكاس يېزىس ھوقۇقىڭىز يوق
+      cannot_reply_text: سىزنىڭ بۇ تېمىغا ئىنكاس يېزىش ھوقۇقىڭىز يوق
       delete_button: => core.ref.delete
       delete_confirmation: "بۇ يازمىنى راستىنلا ئۆچۈرەمسىز؟"
       delete_forever_button: => core.ref.delete_forever
@@ -240,7 +240,7 @@ core:
     discussion_list:
       empty_text: بۇ يەردە بىرمۇ يازما يوقتەك قىلامدۇ نېمە ...
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: ئوقۇدۇم بەپ بەلگە قويۇش
+      mark_as_read_tooltip: ئوقۇدۇم دەپ بەلگە قويۇش
       replied_text: "{username} {ago} ئىنكاس يوللىدى"
       started_text: "{username} {ago} يوللىدى"
 
@@ -252,7 +252,7 @@ core:
       groups_heading: گۇرۇپ
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: يېڭى پارولنى بىكىتىش
+      set_password_label: يېڭى پارولنى بېكىتىش
       submit_button: => core.ref.save_changes
       title: ئىشلەتكۈچىنى تەھرىرلەش
       username_heading: => core.ref.username
@@ -262,10 +262,10 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: بىز سىزگە پارول ئۆزگەرتىش ئۇچۇرىنى يوللاپ بولدۇق. ئەگەر تاپشۇرۇپ ئالمىغان بولسىڭىز ئەخلەت ساندۇقىغا قاراپ بېقىڭ . 
-      not_found_message: بۇ ئىلخەتنى ھېچكىم تىزىملاتماپتۇ جۇمۇ 
-      submit_button: پارول ئۆزگەرتىش 
-      text: ئىلخەتنى كىرگۈزۈڭ ، بىز سىزگە پارولنى قايتا بىكىتىش ئادىرىسىنى يوللاپ بىرىمىز 
+      email_sent_message: بىز سىزگە پارول ئۆزگەرتىش ئۇچۇرىنى يوللاپ بولدۇق. ئەگەر تاپشۇرۇپ ئالمىغان بولسىڭىز ئەخلەت ساندۇقىغا قاراپ بېقىڭ .
+      not_found_message: بۇ ئىلخەتنى ھېچكىم تىزىملاتماپتۇ جۇمۇ
+      submit_button: پارول ئۆزگەرتىش
+      text: ئىلخەتنى كىرگۈزۈڭ ، بىز سىزگە پارولنى قايتا بېكىتىش ئادىرىسىنى يوللاپ بىرىمىز
       title: پارولنى ئۇنتۇپ قالدىم
 
     # These translations are used in the header and session dropdown menu.
@@ -275,14 +275,14 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: ماتىريال
-      search_placeholder: ئىزدەش 
+      search_placeholder: ئىزدەش
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: ئىنكاس يازاممايسىز ؟
+      cannot_start_discussion_button: ئىنكاس يازالمايسىز ؟
       mark_all_as_read_confirmation: "ھەممە يازمىغا ئوقۇدۇم دەپ بەلگە قۇيامسىز ؟"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: يېڭىلاش
@@ -298,14 +298,14 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "پارولنى ئۇنۇتتىڭىز ؟"
+      forgot_password_link: "پارولنى ئۇنتۇپ قالدىڭىز ؟"
       invalid_login_message: كىرگۈزگەن ئۇچۇرىڭىز خاتا بۇلۇپ قالدى
       password_placeholder: => core.ref.password
       remember_me_label: كىيىن پارولسىز كىرسۇن
-      sign_up_text: "ئاكونتىڭىز يوق بولسا ئاۋال <a>تىزىملىتىڭ</a>"
+      sign_up_text: "ئاكونتىڭىز يوق بولسا ئاۋۋال <a>تىزىملىتىڭ</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: ئىسىم ياكى ئىلخەت
+      username_or_email_placeholder: ئەزا نامى ياكى ئىلخەت
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -317,8 +317,8 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: تەھرىرلەندى
-      edited_tooltip: "{username} {ago} يوللىغان"
+      edited_text: قايتا تەھرىرلەنگەن
+      edited_tooltip: "{username} {ago} تەھرىرلىگەن"
       number_tooltip: "ئىنكاس #{number}"
 
     # These translations are used by the post control buttons.
@@ -333,7 +333,7 @@ core:
       now_link: ھازىر
       original_post_link: ئەسلى يازما
       unread_text: "{count} سى ئوقۇلمىغان"
-      viewing_text: "{index}-قەۋەت / جەمىي {count} قەۋەت|{index}-قەۋەت / جەمىي {count} قەۋەت "
+      viewing_text: "{index}-قەۋەت / جەمئىي {count} قەۋەت|{index}-قەۋەت / جەمئىي {count} قەۋەت "
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -363,7 +363,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: توربىكەت
       notify_discussion_renamed_label: بىرسى يازمامنىڭ تېمىسىنى ئ‍ۆزگەرتتى
-      privacy_disclose_online_label: مېنىڭ توردا ئىكەنلىكىمنى باشقىلار بىلسە بۇلىدۇ
+      privacy_disclose_online_label: مېنىڭ توردا ئىكەنلىكىمنى باشقىلار بىلسە بولىدۇ
       privacy_heading: شەخسىيەت
       title: => core.ref.settings
 
@@ -402,7 +402,7 @@ core:
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: مۇقۇملاش ئىلخىەتنى قايتا يوللاش
+      resend_button: دەلىللەش ئۇچۇرىنى قايتا يوللاش
       sent_message: يوللاش
 
   # Translations in this namespace are used by the forum and admin interfaces.
@@ -441,7 +441,7 @@ core:
     content:
       javascript_disabled_message: بۇ توربەت ھازىرقى زامان تور كۆرگۈچلىرىدە نۇرمال ئىشلەيدۇ.
       load_error_message: سىستىما توغرا قاچىلانمىدىمۇ قانداق، ئەگەر بۇ ئەسكەرتىش چىقسا سىستمىنى قايتا قاچىلاڭ
-      loading_text: سەل ساقلاڭ ... 
+      loading_text: سەل ساقلاڭ ...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -453,7 +453,7 @@ core:
       403_message: سىزنىڭ بۇ بەتنى ئېچىش ھۇقۇقىڭىز يوق
       404_message: سىز ئاچقان بەت يوقكەن
       404_return_link: "{forum} غا قايتىش"
-      500_message: ئازراق خاتالىق چىقىپ قالدى 
+      500_message: ئازراق خاتالىق چىقىپ قالدى
       503_message: "{forum} ياسىلىۋاتىدۇ . "
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
@@ -470,14 +470,14 @@ core:
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: پارولنى بىكىتىش
+      confirm_password_label: پارولنى بېكىتىش
       new_password_label: پارول
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "ئابۇنىت ئىسمى خاتا بۇلۇپ قالدى . ئۇيغۇرچە يازسىڭىزمۇ بۇلىدۇ جۇمۇ !"
+    invalid_username_message: "ئابۇنىت ئىسمى خاتا بۇلۇپ قالدى . ئۇيغۇرچە يازسىڭىزمۇ بولىدۇ جۇمۇ !"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -540,7 +540,7 @@ core:
     custom_header_text: "ھەربىر بەتنىڭ ئۈستىدە كۆرىنىدىغان مەزمۇن"
     custom_header_title: بەت بېشىنى تەھرىرلەش
     delete: ئۆچۈرۈش
-    delete_forever: مەڭگۈ ئۆچۈرۈش
+    delete_forever: مەڭگۈلۈك ئۆچۈرۈش
     discussions: يازما                     # Referenced by flarum-statistics.yml
     edit: تەھرىرلەش
     email: ئىلخەت
@@ -549,7 +549,7 @@ core:
     log_out: چىكىنىش
     mark_all_as_read: ھەممىگە ئۇقۇدۇم دەپ بەلگە قويۇش
     next_page: كىيىنكى بەت
-    notifications: ئۇچۇرلاش
+    notifications: ئۇچۇرلار
     okay: ھەئە                                  # Referenced by flarum-tags.yml
     password: پارول
     posts: ئىنكاس                                 # Referenced by flarum-statistics.yml
@@ -577,8 +577,8 @@ core:
   group:
     admin: باشقۇرغۇچى
     admins: باشقۇرغۇچىلار
-    guest: مىھمان
-    guests: مىھمانلار
+    guest: مېھمان
+    guests: مېھمانلار
     member: ئەزا
     members: ئەزالار
     mod: يۈرگۈزگۈچى
