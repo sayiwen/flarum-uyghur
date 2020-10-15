@@ -1,0 +1,28 @@
+nomiscz-auth-wechat:
+  forum:
+    buttons:
+      login: ئۈندىداردا كىرىش
+      link: ئۈندىدارغا باغلاش
+      unlink: ئۈندىداردىن ئاجرىتىش
+    alerts:
+      already_linked:  ئۈندىدارغا باغلاندى
+      already_used: بۇ ئۈندىدارغا باشقا ئاكونىت باغلىنىپ بولغان
+      link_success: ئۈندىدارغا باغلاش مۇۋاپىقىيەتلىك بولدى
+      unlink_success: ئۈندىداردىن ئاجرىتىش مۇۋاپىقىيەتلىك بولدى
+      error: خاتالىق چىقىپ قالدىمۇ
+    modals:
+      link:
+        title: ئۈندىدارغا باغلاش
+      unlink:
+        title: ئۈندىداردىن ئاجرىتىش
+        info:
+          confirm: راستىنلا ئۈندىداردىن ئاجرىتامسىز ؟
+          no_providers: پارولنى قايتا بىكىتسىڭىز بۇلىدۇ
+        buttons:
+          confirm: ھەئە
+          cancel: بولدىلا
+  admin:
+    settings:
+      title: ئۈندىدار تەڭشىكى
+      api_app_id: API App ID
+      api_app_secret: API App Secret
