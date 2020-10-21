@@ -1,10 +1,11 @@
-nomiscz-auth-wechat:
+sayiwen-auth-wechat:
   forum:
     buttons:
       login: ئۈندىداردا كىرىش
       link: ئۈندىدارغا باغلاش
       unlink: ئۈندىداردىن ئاجرىتىش
     alerts:
+      use_wechat: تىزىملاتمىغان بولسىڭىز ئۈندىداردا كىرسىڭىز تىزىملىتالايسىز
       already_linked:  ئۈندىدارغا باغلاندى
       already_used: بۇ ئۈندىدارغا باشقا ئاكونىت باغلىنىپ بولغان
       link_success: ئۈندىدارغا باغلاش مۇۋاپىقىيەتلىك بولدى
