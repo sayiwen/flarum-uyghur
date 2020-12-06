@@ -4,6 +4,7 @@ sayiwen-auth-wechat:
       login: ئۈندىداردا كىرىش
       link: ئۈندىدارغا باغلاش
       unlink: ئۈندىداردىن ئاجرىتىش
+      link_mp: سالۇنغا باغلاش
     alerts:
       use_wechat: تىزىملاتمىغان بولسىڭىز ئۈندىداردا كىرسىڭىز تىزىملىتالايسىز
       already_linked:  ئۈندىدارغا باغلاندى
@@ -27,3 +28,5 @@ sayiwen-auth-wechat:
       title: ئۈندىدار تەڭشىكى
       api_app_id: API App ID
       api_app_secret: API App Secret
+      api_mp_app_id: سالۇن نۇمۇرى
+      api_mp_app_secret: سالۇن پارول

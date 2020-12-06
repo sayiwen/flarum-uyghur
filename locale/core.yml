@@ -416,7 +416,7 @@ core:
     error:
       generic_message: "Oops! Something went wrong. Please reload the page and try again."
       not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
+      permission_denied_message: ھوقۇقىڭىز يەتمىدى ، بەتنى قايتا ئېچىپ سىناپ بېقىڭ
       rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
 
     # These translations are used as suffixes when abbreviating numbers.
